@@ -9,11 +9,34 @@ h1,
 h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  padding-left: 8rem;
+  padding-left: 12rem;
 }
 p,
 ul {
-  padding-left: 8rem;
+  padding-left: 12rem;
+  list-style-position: outside;
+}
+li {
+  padding-left: 0%;
+}
+.list {
+  list-style: none;
+  padding-left: 0;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-left: 1rem;
+}
+.list li {
+  position: relative;
+  padding-left: 2rem;
+}
+.list li::before {
+  content: "★";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: aqua;
+  font-size: 1rem;
 }
 body.default {
   background-color: #f5e9d3;
