@@ -1,5 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+}
 body.default {
   background-color: #f5e9d3;
+  padding: 0%;
+  margin: 0%;
 }
 body.ligth-mode {
   background-color: #f5e9d3;
@@ -9,11 +15,21 @@ body.dark-mode {
   background-color: #2e2e2e;
   color: #f5e9d3;
 }
-.header {
+body.dark-mode .site-header {
+  border-bottom: 3px solid #f5e9d3;
+}
+.site-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  background-color: aqua;
+  border-bottom: 3px solid #2e2e2e;
+  padding: 0%;
+  margin: 0%;
+}
+.site-header div {
+  margin: 0%;
+  padding: 0%;
 }
 
 #toggle-btn {
@@ -24,6 +40,8 @@ body.dark-mode {
   cursor: pointer;
   color: #000000; /* svart i light mode */
   transition: color 0.3s ease;
+  margin: 0%;
+  padding: 0%;
 }
 
 body.dark-mode #toggle-btn {
@@ -44,4 +62,5 @@ body.dark-mode #toggle-btn {
   height: 300px;
   border-radius: 8px;
   margin-right: 3rem;
+  border: 3px solid #000000;
 }
