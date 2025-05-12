@@ -1,4 +1,11 @@
-body {
-  background-color: #ffd700c5;
-  color: #000000;
+body.default {
+  background-color: #f5e9d3;
+}
+body.ligth-mode {
+  background-color: #f5e9d3;
+  color: #2e2e2e;
+}
+body.dark-mode {
+  background-color: #2e2e2e;
+  color: #2e2e2e;
 }
