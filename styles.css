@@ -29,11 +29,19 @@ body.dark-mode {
 body.dark-mode #toggle-btn {
   color: #ffd580;
 }
-#toggle-btn {
-  background: none;
-  border: none;
-  font-size: 1.5rem;
-  cursor: pointer;
-  color: #000000; /* svart i light mode */
-  transition: color 0.3s ease;
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  margin: 2rem;
+}
+.text {
+  flex: 1;
+}
+.pictureme {
+  max-width: 230px;
+  height: 300px;
+  border-radius: 8px;
+  margin-right: 3rem;
 }
