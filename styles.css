@@ -19,7 +19,11 @@ h2 {
   margin-bottom: 30px;
   margin-top: 100px;
 }
-p,
+p {
+  padding-left: 12rem;
+  list-style-position: outside;
+  margin-bottom: 60px;
+}
 ul {
   padding-left: 12rem;
   list-style-position: outside;
