@@ -119,3 +119,17 @@ body.dark-mode .pictureme {
 .content {
   padding-right: 100px;
 }
+#scrollToTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0, 3 ease;
+}
+#scrollToTopBtn:hover {
+  background-color: aqua;
+}

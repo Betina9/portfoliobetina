@@ -7,3 +7,10 @@ button.addEventListener("click", function () {
     ? "🔆"
     : "🌙";
 });
+let mybutton = document.getElementById("scrollToTopBtn");
+function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+}
