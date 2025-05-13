@@ -5,26 +5,36 @@ body {
   font-size: 20px;
   line-height: 1, 6;
 }
-h1,
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  padding-left: 12rem;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
 h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   padding-left: 12rem;
+  margin-bottom: 30px;
+  margin-top: 100px;
 }
 p,
 ul {
   padding-left: 12rem;
   list-style-position: outside;
+  margin-bottom: 60px;
 }
 li {
   padding-left: 0%;
+  margin-bottom: 10px;
+  margin-top: 30px;
 }
 .list {
   list-style: none;
   padding-left: 0;
-  max-width: 1150px;
+  max-width: 1050px;
   margin: 0 auto;
-  padding-left: 1rem;
 }
 .list li {
   position: relative;
@@ -67,13 +77,13 @@ body.dark-mode .site-header {
 
 #toggle-btn {
   margin-left: auto;
+  margin-right: 30px;
   background: none;
   border: none;
   font-size: 1.5rem;
   cursor: pointer;
   color: #000000; /* svart i light mode */
   transition: color 0.3s ease;
-  margin: 0%;
   padding: 0%;
 }
 
@@ -88,6 +98,7 @@ body.dark-mode #toggle-btn {
 }
 .text {
   flex: 1;
+  margin-top: 20px;
 }
 .pictureme {
   max-width: 230px;
@@ -95,7 +106,12 @@ body.dark-mode #toggle-btn {
   border-radius: 8px;
   margin-right: 3rem;
   border: 3px solid #000000;
+  position: relative;
+  top: -40px;
 }
 body.dark-mode .pictureme {
   border-color: #f5e9d3;
+}
+.content {
+  padding-right: 100px;
 }
